@@ -1,0 +1,57 @@
+.flex-container
+{
+    display: flex;
+    flex-direction: row;
+    background-color: DodgerBlue;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 15px;
+}
+.flex-container > div
+{
+    display: flex;
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+    line-height: 75px;
+}
+#side_content
+{
+    flex-grow: 0;
+}
+#main_content
+{
+    flex-grow: 1;
+}
+.header
+{
+    display: flex;
+    height: 100px;
+    background-color: #cecece;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.nav_menu
+{
+    display: flex;
+    height: 50px;
+    background-color: #cecece;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.footer
+{
+    display: flex;
+    height: 50px;
+    background-color: #cecece;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 15px;
+}
