@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Couter Example in JavaScript</title>
+    </head>
+    <body>
+        <button onclick ="alert('Hello! Sheikh')">clickonme</button>
+    
+        <h1 id ="result">0</h1>
+        <br><br>
+        <button  id="plusbutton" >+</button>
+        <button id="minusbutton">-</button>
+
+        <script type ="text/javascript">
+            let count =0;
+           alert('Page is loaded Sucessfully!');
+           const plusButton = document.getElementById("plusbutton");
+           const res = document.getElementById("result");
+           const minusButton = document.getElementById("minusbutton");
+
+           plusButton.addEventListener("click",()=>{
+               count++;
+               res.innerText = count;
+           });
+           
+           minusButton.addEventListener("click",()=>{
+               count--;
+               res.innerText = count;
+           });
+           
+        
+        </script>
+
+
+    </body>
+</html>
