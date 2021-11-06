@@ -12,20 +12,20 @@
         <button id="minusbutton">-</button>
 
         <script type ="text/javascript">
-            let count =0;
+            let counter =0;
            alert('Page is loaded Sucessfully!');
            const plusButton = document.getElementById("plusbutton");
-           const res = document.getElementById("result");
+           const result = document.getElementById("result");
            const minusButton = document.getElementById("minusbutton");
 
            plusButton.addEventListener("click",()=>{
-               count++;
-               res.innerText = count;
+               counter++;
+               result.innerText = counter;
            });
            
            minusButton.addEventListener("click",()=>{
-               count--;
-               res.innerText = count;
+               counter--;
+               result.innerText = counter;
            });
            
         
